@@ -1,0 +1,460 @@
+
+ * Estilos de mesa
+ * /
+table.dataTable {
+  ancho: 100%;
+  margen: 0 automático;
+  Limpia los dos;
+  colapso de la frontera: separado;
+  espaciado de bordes: 0;
+  / *
+   * Estilos de encabezado y pie de página
+   * /
+  / *
+   * Estilos de carrocería
+   * /
+}
+table.dataTable thead th,
+table.dataTable tfoot th {
+  font-weight: negrita;
+}
+table.dataTable thead th,
+table.dataTable thead td {
+  relleno: 10px 18px;
+  borde inferior: 1px sólido # 111;
+}
+table.dataTable thead th: active,
+table.dataTable thead td: active {
+  esquema: ninguno;
+}
+table.dataTable tfoot th,
+table.dataTable tfoot td {
+  relleno: 10px 18px 6px 18px;
+  borde superior: 1px sólido # 111;
+}
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+  cursor: puntero;
+  * cursor: mano;
+  repetición de fondo: no repetición;
+  posición de fondo: centro derecha;
+}
+table.dataTable thead .sorting {
+  background-image: url ("../ images / sort_both.png");
+}
+table.dataTable thead .sorting_asc {
+  background-image: url ("../ images / sort_asc.png");
+}
+table.dataTable thead .sorting_desc {
+  background-image: url ("../ images / sort_desc.png");
+}
+table.dataTable thead .sorting_asc_disabled {
+  background-image: url ("../ images / sort_asc_disabled.png");
+}
+table.dataTable thead .sorting_desc_disabled {
+  background-image: url ("../ images / sort_desc_disabled.png");
+}
+table.dataTable tbody tr {
+  color de fondo: #ffffff;
+}
+table.dataTable tbody tr.selected {
+  color de fondo: # B0BED9;
+}
+table.dataTable tbody th,
+table.dataTable tbody td {
+  relleno: 8px 10px;
+}
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+  borde superior: 1px sólido #ddd;
+}
+table.dataTable.row-border tbody tr: primer hijo th,
+table.dataTable.row-border tbody tr: primer hijo td, table.dataTable.display tbody tr: primer hijo th,
+table.dataTable.display tbody tr: first-child td {
+  borde superior: ninguno;
+}
+table.dataTable.cell-border tbody th, table.dataTable.cell-border tbody td {
+  borde superior: 1px sólido #ddd;
+  borde derecho: 1px sólido #ddd;
+}
+table.dataTable.cell-border tbody tr th: primer hijo,
+table.dataTable.cell-border tbody tr td: first-child {
+  borde izquierdo: 1px sólido #ddd;
+}
+table.dataTable.cell-border tbody tr: primer hijo th,
+table.dataTable.cell-border tbody tr: first-child td {
+  borde superior: ninguno;
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+  color de fondo: # f9f9f9;
+}
+table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.odd.selected {
+  color de fondo: # acbad4;
+}
+table.dataTable.hover tbody tr: hover, table.dataTable.display tbody tr: hover {
+  color de fondo: # f6f6f6;
+}
+table.dataTable.hover tbody tr: hover.selected, table.dataTable.display tbody tr: hover.selected {
+  color de fondo: # aab7d1;
+}
+table.dataTable.order-column tbody tr> .sorting_1,
+table.dataTable.order-column tbody tr> .sorting_2,
+table.dataTable.order-column tbody tr> .sorting_3, table.dataTable.display tbody tr> .sorting_1,
+table.dataTable.display tbody tr> .sorting_2,
+table.dataTable.display tbody tr> .sorting_3 {
+  color de fondo: #fafafa;
+}
+table.dataTable.order-column tbody tr.selected> .sorting_1,
+table.dataTable.order-column tbody tr.selected> .sorting_2,
+table.dataTable.order-column tbody tr.selected> .sorting_3, table.dataTable.display tbody tr.selected> .sorting_1,
+table.dataTable.display tbody tr.selected> .sorting_2,
+table.dataTable.display tbody tr.selected> .sorting_3 {
+  color de fondo: # acbad5;
+}
+table.dataTable.display tbody tr.odd> .sorting_1, table.dataTable.order-column.stripe tbody tr.odd> .sorting_1 {
+  color de fondo: # f1f1f1;
+}
+table.dataTable.display tbody tr.odd> .sorting_2, table.dataTable.order-column.stripe tbody tr.odd> .sorting_2 {
+  color de fondo: # f3f3f3;
+}
+table.dataTable.display tbody tr.odd> .sorting_3, table.dataTable.order-column.stripe tbody tr.odd> .sorting_3 {
+  color de fondo: humo blanco;
+}
+table.dataTable.display tbody tr.odd.selected> .sorting_1, table.dataTable.order-column.stripe tbody tr.odd.selected> .sorting_1 {
+  color de fondo: # a6b4cd;
+}
+table.dataTable.display tbody tr.odd.selected> .sorting_2, table.dataTable.order-column.stripe tbody tr.odd.selected> .sorting_2 {
+  color de fondo: # a8b5cf;
+}
+table.dataTable.display tbody tr.odd.selected> .sorting_3, table.dataTable.order-column.stripe tbody tr.odd.selected> .sorting_3 {
+  color de fondo: # a9b7d1;
+}
+table.dataTable.display tbody tr.even> .sorting_1, table.dataTable.order-column.stripe tbody tr.even> .sorting_1 {
+  color de fondo: #fafafa;
+}
+table.dataTable.display tbody tr.even> .sorting_2, table.dataTable.order-column.stripe tbody tr.even> .sorting_2 {
+  color de fondo: #fcfcfc;
+}
+table.dataTable.display tbody tr.even> .sorting_3, table.dataTable.order-column.stripe tbody tr.even> .sorting_3 {
+  color de fondo: #fefefe;
+}
+table.dataTable.display tbody tr.even.selected> .sorting_1, table.dataTable.order-column.stripe tbody tr.even.selected> .sorting_1 {
+  color de fondo: # acbad5;
+}
+table.dataTable.display tbody tr.even.selected> .sorting_2, table.dataTable.order-column.stripe tbody tr.even.selected> .sorting_2 {
+  color de fondo: # aebcd6;
+}
+table.dataTable.display tbody tr.even.selected> .sorting_3, table.dataTable.order-column.stripe tbody tr.even.selected> .sorting_3 {
+  color de fondo: # afbdd8;
+}
+table.dataTable.display tbody tr: hover> .sorting_1, table.dataTable.order-column.hover tbody tr: hover> .sorting_1 {
+  color de fondo: #eaeaea;
+}
+table.dataTable.display tbody tr: hover> .sorting_2, table.dataTable.order-column.hover tbody tr: hover> .sorting_2 {
+  color de fondo: #ececec;
+}
+table.dataTable.display tbody tr: hover> .sorting_3, table.dataTable.order-column.hover tbody tr: hover> .sorting_3 {
+  color de fondo: #efefef;
+}
+table.dataTable.display tbody tr: hover.selected> .sorting_1, table.dataTable.order-column.hover tbody tr: hover.selected> .sorting_1 {
+  color de fondo: # a2aec7;
+}
+table.dataTable.display tbody tr: hover.selected> .sorting_2, table.dataTable.order-column.hover tbody tr: hover.selected> .sorting_2 {
+  color de fondo: # a3b0c9;
+}
+table.dataTable.display tbody tr: hover.selected> .sorting_3, table.dataTable.order-column.hover tbody tr: hover.selected> .sorting_3 {
+  color de fondo: # a5b2cb;
+}
+table.dataTable.no-footer {
+  borde inferior: 1px sólido # 111;
+}
+table.dataTable.nowrap th, table.dataTable.nowrap td {
+  espacio en blanco: nowrap;
+}
+table.dataTable.compact thead th,
+table.dataTable.compact thead td {
+  relleno: 4px 17px;
+}
+table.dataTable.compact tfoot th,
+table.dataTable.compact tfoot td {
+  relleno: 4px;
+}
+table.dataTable.compact tbody th,
+table.dataTable.compact tbody td {
+  relleno: 4px;
+}
+table.dataTable th.dt-left,
+table.dataTable td.dt-left {
+  alineación de texto: izquierda;
+}
+table.dataTable th.dt-center,
+table.dataTable td.dt-center,
+table.dataTable td.dataTables_empty {
+  alineación de texto: centro;
+}
+table.dataTable th.dt-right,
+table.dataTable td.dt-right {
+  alineación de texto: derecha;
+}
+table.dataTable th.dt-justify,
+table.dataTable td.dt-justify {
+  alinear texto: justificar;
+}
+table.dataTable th.dt-nowrap,
+table.dataTable td.dt-nowrap {
+  espacio en blanco: nowrap;
+}
+table.dataTable thead th.dt-head-left,
+table.dataTable thead td.dt-head-left,
+table.dataTable tfoot th.dt-head-left,
+table.dataTable tfoot td.dt-head-left {
+  alineación de texto: izquierda;
+}
+table.dataTable thead th.dt-head-center,
+table.dataTable thead td.dt-head-center,
+table.dataTable tpie th.dt-head-center,
+table.dataTable tfoot td.dt-head-center {
+  alineación de texto: centro;
+}
+table.dataTable thead th.dt-head-right,
+table.dataTable thead td.dt-head-right,
+table.dataTable tfoot th.dt-head-right,
+table.dataTable tfoot td.dt-head-right {
+  alineación de texto: derecha;
+}
+table.dataTable thead th.dt-head-justify,
+table.dataTable thead td.dt-head-justify,
+table.dataTable tfoot th.dt-head-justify,
+table.dataTable tfoot td.dt-head-justify {
+  alinear texto: justificar;
+}
+table.dataTable thead th.dt-head-nowrap,
+table.dataTable thead td.dt-head-nowrap,
+table.dataTable tfoot th.dt-head-nowrap,
+table.dataTable tfoot td.dt-head-nowrap {
+  espacio en blanco: nowrap;
+}
+table.dataTable tbody th.dt-body-left,
+table.dataTable tbody td.dt-body-left {
+  alineación de texto: izquierda;
+}
+table.dataTable tbody th.dt-body-center,
+table.dataTable tbody td.dt-body-center {
+  alineación de texto: centro;
+}
+table.dataTable tbody th.dt-body-right,
+table.dataTable tbody td.dt-body-right {
+  alineación de texto: derecha;
+}
+table.dataTable tbody th.dt-body-justify,
+table.dataTable tbody td.dt-body-justify {
+  alinear texto: justificar;
+}
+table.dataTable tbody th.dt-body-nowrap,
+table.dataTable tbody td.dt-body-nowrap {
+  espacio en blanco: nowrap;
+}
+
+table.dataTable,
+table.dataTable th,
+table.dataTable td {
+  tamaño de caja: caja de contenido;
+}
+
+
+ * Diseño de funciones de control
+ * /
+.dataTables_wrapper {
+  posición: relativa;
+  Limpia los dos;
+  * zoom: 1;
+  zoom: 1;
+}
+.dataTables_wrapper .dataTables_length {
+  flotador izquierdo;
+}
+.dataTables_wrapper .dataTables_length select {
+  borde: 1px sólido #aaa;
+  radio del borde: 3px;
+  relleno: 5px;
+  color de fondo: transparente;
+  relleno: 4px;
+}
+.dataTables_wrapper .dataTables_filter {
+  flotar derecho;
+  alineación de texto: derecha;
+}
+.dataTables_wrapper .dataTables_filter input {
+  borde: 1px sólido #aaa;
+  radio del borde: 3px;
+  relleno: 5px;
+  color de fondo: transparente;
+  margen izquierdo: 3px;
+}
+.dataTables_wrapper .dataTables_info {
+  Limpia los dos;
+  flotador izquierdo;
+  acolchado superior: 0.755em;
+}
+.dataTables_wrapper .dataTables_paginate {
+  flotar derecho;
+  alineación de texto: derecha;
+  acolchado superior: 0.25em;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  tamaño de caja: caja de borde;
+  pantalla: bloque en línea;
+  ancho mínimo: 1.5em;
+  acolchado: 0.5em 1em;
+  margen izquierdo: 2px;
+  alineación de texto: centro;
+  decoración de texto: ¡ninguna! importante;
+  cursor: puntero;
+  * cursor: mano;
+  color: # 333! importante;
+  borde: 1px transparente sólido;
+  radio del borde: 2px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current: hover {
+  color: # 333! importante;
+  borde: 1px sólido # 979797;
+  color de fondo: blanco;
+  fondo: -webkit-gradient (lineal, arriba a la izquierda, abajo a la izquierda, color-stop (0%, blanco), color-stop (100%, #dcdcdc));
+  / * Chrome, Safari4 + * /
+  fondo: -webkit-linear-gradient (superior, blanco 0%, #dcdcdc 100%);
+  / * Chrome10 +, Safari5.1 + * /
+  fondo: -moz-linear-gradient (arriba, blanco 0%, #dcdcdc 100%);
+  / * FF3.6 + * /
+  fondo: -ms-linear-gradient (arriba, blanco 0%, #dcdcdc 100%);
+  / * IE10 + * /
+  fondo: -o-linear-gradient (arriba, blanco 0%, #dcdcdc 100%);
+  / * Opera 11.10+ * /
+  fondo: degradado lineal (hacia abajo, blanco 0%, #dcdcdc 100%);
+  / * W3C * /
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled: hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled: active {
+  cursor: predeterminado;
+  color: # 666! importante;
+  borde: 1px transparente sólido;
+  fondo: transparente;
+  sombra de caja: ninguna;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button: hover {
+  color: blanco! importante;
+  borde: 1px sólido # 111;
+  color de fondo: # 585858;
+  fondo: -webkit-gradient (lineal, arriba a la izquierda, abajo a la izquierda, color-stop (0%, # 585858), color-stop (100%, # 111));
+  / * Chrome, Safari4 + * /
+  fondo: -webkit-linear-gradient (arriba, # 585858 0%, # 111100%);
+  / * Chrome10 +, Safari5.1 + * /
+  fondo: -moz-linear-gradient (arriba, # 585858 0%, # 111100%);
+  / * FF3.6 + * /
+  fondo: -ms-linear-gradient (arriba, # 585858 0%, # 111100%);
+  / * IE10 + * /
+  fondo: -o-linear-gradient (arriba, # 585858 0%, # 111100%);
+  / * Opera 11.10+ * /
+  fondo: degradado lineal (hacia abajo, # 585858 0%, # 111100%);
+  / * W3C * /
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button: active {
+  esquema: ninguno;
+  color de fondo: # 2b2b2b;
+  fondo: -webkit-gradient (lineal, arriba a la izquierda, abajo a la izquierda, color-stop (0%, # 2b2b2b), color-stop (100%, # 0c0c0c));
+  / * Chrome, Safari4 + * /
+  fondo: -webkit-linear-gradient (arriba, # 2b2b2b 0%, # 0c0c0c 100%);
+  / * Chrome10 +, Safari5.1 + * /
+  fondo: -moz-linear-gradient (arriba, # 2b2b2b 0%, # 0c0c0c 100%);
+  / * FF3.6 + * /
+  fondo: -ms-linear-gradient (arriba, # 2b2b2b 0%, # 0c0c0c 100%);
+  / * IE10 + * /
+  fondo: -o-linear-gradient (arriba, # 2b2b2b 0%, # 0c0c0c 100%);
+  / * Opera 11.10+ * /
+  fondo: degradado lineal (hacia abajo, # 2b2b2b 0%, # 0c0c0c 100%);
+  / * W3C * /
+  caja-sombra: recuadro 0 0 3px # 111;
+}
+.dataTables_wrapper .dataTables_paginate .ellipsis {
+  acolchado: 0 1em;
+}
+.dataTables_wrapper .dataTables_processing {
+  posición: absoluta;
+  arriba: 50%;
+  izquierda: 50%;
+  ancho: 100%;
+  altura: 40px;
+  margen izquierdo: -50%;
+  margen superior: -25px;
+  padding-top: 20px;
+  alineación de texto: centro;
+  tamaño de fuente: 1.2em;
+  color de fondo: blanco;
+  fondo: -webkit-gradient (lineal, arriba a la izquierda, arriba a la derecha, color-stop (0%, rgba (255, 255, 255, 0)), color-stop (25%, rgba (255, 255, 255, 0.9 )), color-stop (75%, rgba (255, 255, 255, 0.9)), color-stop (100%, rgba (255, 255, 255, 0)));
+  fondo: -webkit-linear-gradient (izquierda, rgba (255, 255, 255, 0) 0%, rgba (255, 255, 255, 0.9) 25%, rgba (255, 255, 255, 0.9) 75%, rgba (255, 255, 255, 0) 100%);
+  fondo: -moz-linear-gradient (izquierda, rgba (255, 255, 255, 0) 0%, rgba (255, 255, 255, 0.9) 25%, rgba (255, 255, 255, 0.9) 75%, rgba (255, 255, 255, 0) 100%);
+  fondo: -ms-linear-gradient (izquierda, rgba (255, 255, 255, 0) 0%, rgba (255, 255, 255, 0.9) 25%, rgba (255, 255, 255, 0.9) 75%, rgba (255, 255, 255, 0) 100%);
+  fondo: -o-linear-gradient (izquierda, rgba (255, 255, 255, 0) 0%, rgba (255, 255, 255, 0.9) 25%, rgba (255, 255, 255, 0.9) 75%, rgba (255, 255, 255, 0) 100%);
+  fondo: gradiente lineal (a la derecha, rgba (255, 255, 255, 0) 0%, rgba (255, 255, 255, 0.9) 25%, rgba (255, 255, 255, 0.9) 75%, rgba ( 255, 255, 255, 0) 100%);
+}
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate {
+  color: # 333;
+}
+.dataTables_wrapper .dataTables_scroll {
+  Limpia los dos;
+}
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody {
+  * margen superior: -1px;
+  -webkit-overflow-scrolling: toque;
+}
+... .dataTables_scroll div.dataTables_scrollBody> tabla> tbody> tr> td {
+  alineación vertical: medio;
+}
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody> tabla> thead> tr> th> div.dataTables_sizing,
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody> tabla> thead> tr> td> div.dataTables_sizing, .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody> tabla> tbody> tr> th> div.dataTables
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody> tabla> tbody> tr> td> div.dataTables_sizing {
+  altura: 0;
+  desbordamiento: oculto;
+  margen: 0! importante;
+  relleno: 0! importante;
+}
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+  borde inferior: 1px sólido # 111;
+}
+.dataTables_wrapper.no-footer div.dataTables_scrollHead table.dataTable,
+.dataTables_wrapper.no-footer div.dataTables_scrollBody> tabla {
+  borde inferior: ninguno;
+}
+.dataTables_wrapper: after {
+  visibilidad: oculta;
+  bloqueo de pantalla;
+  contenido: "";
+  Limpia los dos;
+  altura: 0;
+}
+
+@media pantalla y (ancho máximo: 767px) {
+  .dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_paginate {
+    flotar: ninguno;
+    alineación de texto: centro;
+  }
+  .dataTables_wrapper .dataTables_paginate {
+    margen superior: 0.5em;
+  }
+}
+@media pantalla y (ancho máximo: 640px) {
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter {
+    flotar: ninguno;
+    alineación de texto: centro;
+  }
+  .dataTables_wrapper .dataTables_filter {
+    margen superior: 0.5em;
+  }
+}
+
