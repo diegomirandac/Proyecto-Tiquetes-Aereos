@@ -89,22 +89,22 @@ include_once("template/templateHead.php");
             
             <tbody>
         <tr>
-            <td>12345678 </td>
-            <td>diego </td>
-            <td>miranda </td>
-            <td>chaves </td>
-            <td>2020-12-15 </td>
-            <td>1 </td>
-            <td>Reporte Informacion </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
         </tr>
         <tr>
-            <td>--- </td>
-            <td>--- </td>
-            <td>--- </td>
-            <td>--- </td>
-            <td>--- </td>
-            <td>--- </td>
-            <td>--- </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
         </tr>
         
     </tbody>
