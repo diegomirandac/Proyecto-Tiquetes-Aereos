@@ -63,7 +63,7 @@
 							</div>
 							<div class="panel-body">
 								<h4>FACTURA : 
-										<a href="#">1V470426F2865645G 		 	</a>
+										<a href="#"> 		 	</a>
 								</h4>
 							</div>
 						</div>
@@ -119,9 +119,9 @@
 	<tbody>
 		<tr>
 			<td style="text-align: center;">1</td>
-			<td><a href="#"> B/1 </a></td>
-			<td class=" text-right ">$140</td>
-			<td class=" text-right ">$140</td>
+			<td><a href="#"> / </a></td>
+			<td class=" text-right ">$</td>
+			<td class=" text-right ">$</td>
 			
 		</tr>
 		<tr>
@@ -133,7 +133,7 @@
 		</tr>
 		<tr >
 			<td colspan="3" style="text-align: right;">Total $.</td>
-			<td style="text-align: right;"><a href="#" > $140 </a></td>
+			<td style="text-align: right;"><a href="#" > $1 </a></td>
 			
 			
 		</tr>
