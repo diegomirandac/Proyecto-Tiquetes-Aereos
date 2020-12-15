@@ -16,6 +16,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/estilos.css" />
   <script src="js/java.js" type="text/javascript"></script>
+  <script src="js/jquery3_5_1.min.js" type="text/javascript"></script>
+        <script src="js/tipocambio.js" type="text/javascript"></script>
   
 </head>
 
@@ -62,6 +64,8 @@
 <div class="jumbotron text-center">
   <h1>D & J, Flys</h1> 
   <p>! Garantizamos la comodidad en tu proximo vuelo. !</p> 
+  <input style="color:#000000" type="text" size="15" maxlength="30" value="Venta : 603.56" name="venta" disabled required/>
+  <input style="color:#000000" type="text" size="15" maxlength="30" value="Compra : 609.91" name="compra" disabled required/>
  
 </div>
     
@@ -314,6 +318,9 @@
           <h1>Proximamente</h1>
         </div>
         <div class="panel-body">
+            
+            
+            
           
           
         </div>
