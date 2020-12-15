@@ -187,7 +187,7 @@
        <form align="center" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_xclick">
             <input type="hidden" name="business" value="sb-dj9n431483466@business.example.com">
-            <input type="hidden" name="item_name" value="">
+            <input type="hidden" name="item_name" value="Clase Economica">
             <input type="hidden" name="item_name" value="Asiento /">
             <input type="hidden" name="return" value="http://localhost/UIA-Progra03-Lab01/public_html/factura.php#">
             <input type="hidden" name="currency_code" value="USD">
