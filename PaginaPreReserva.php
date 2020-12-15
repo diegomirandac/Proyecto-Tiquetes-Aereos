@@ -64,8 +64,8 @@
 <div class="jumbotron text-center">
   <h1>D & J, Flys</h1> 
   <p>! Garantizamos la comodidad en tu proximo vuelo. !</p> 
-  <input style="color:#000000" type="text" size="15" maxlength="30" value="Venta : 603.56" name="venta" disabled required/>
-  <input style="color:#000000" type="text" size="15" maxlength="30" value="Compra : 609.91" name="compra" disabled required/>
+  <input style="color:#000000" type="text" size="15" maxlength="30" value="Venta : " name="venta" disabled required/>
+  <input style="color:#000000" type="text" size="15" maxlength="30" value="Compra : " name="compra" disabled required/>
  
 </div>
     
