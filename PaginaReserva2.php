@@ -188,10 +188,10 @@
             <input type="hidden" name="cmd" value="_xclick">
             <input type="hidden" name="business" value="sb-dj9n431483466@business.example.com">
             <input type="hidden" name="item_name" value="Clase Ejecutiva">
-            <input type="hidden" name="item_name" value="Asiento C/3">
+            <input type="hidden" name="item_name" value="Asiento /">
             <input type="hidden" name="return" value="http://localhost/UIA-Progra03-Lab01/public_html/factura1.php">
             <input type="hidden" name="currency_code" value="USD">
-            <input type="hidden" name="amount" value="199.00">
+            <input type="hidden" name="amount" value="">
             <input type="image" width="200" height="100" src="Imagenes/paypal.png"
                    name="submit"
                    alt="Make payments with PayPal - it's fast, free and secure!">
