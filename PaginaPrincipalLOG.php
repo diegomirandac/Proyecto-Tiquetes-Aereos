@@ -64,7 +64,7 @@
 <div class="jumbotron text-center">
   <h1>D & J, Flys</h1> 
   <p>! Garantizamos la comodidad en tu proximo vuelo. !</p> 
- <input style="color:#000000" type="text" size="15" maxlength="30" value="Usuario : diego" name="usuario" disabled required/>
+ <input style="color:#000000" type="text" size="15" maxlength="30" value="Usuario : " name="usuario" disabled required/>
 </div>
 
 <!-- (Sobre Seccion) -->
